@@ -662,7 +662,7 @@ export default {
 .message-area {
   /* max-height: 70vh; */
   height: calc(100vh - 290px);
-  overflow-y: auto;
+  /* overflow-y: auto; */
   padding: 16px;
   margin-bottom: 70px;
 }

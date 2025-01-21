@@ -86,6 +86,10 @@ export default {
 <style scoped>
 .message-list {
   padding-top: 1rem;
+  min-height: calc(100vh - 319px);
+  max-height: calc(100vh - 319px);
+  overflow-y: auto;
+  overflow-x: hidden;
   /* overflow-y: auto;
   overflow-x: hidden; */
 }
